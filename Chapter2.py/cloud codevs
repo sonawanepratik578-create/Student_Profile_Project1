@@ -1,0 +1,3 @@
+name = "Rohan"
+
+print (name[2])
