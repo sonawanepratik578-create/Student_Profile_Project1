@@ -1,0 +1,10 @@
+print("==============Text Analyzer Project==============")
+
+sentence = input("Enter your sentence:")
+char = input("Enter character:")
+print("Total characters:",len(sentence))
+print("Total words:",len(sentence.split()))
+print("Uppercase:",sentence.upper())
+print("Lowercase:",sentence.lower())
+print("Reverse:",sentence[::-1])
+print("character count:",sentence.count(char))
